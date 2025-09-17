@@ -1,0 +1,75 @@
+.feedback-form {
+  width: 408px;
+  padding: 24px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  background: #fff;
+  gap: 16px;
+}
+
+.email {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+input[name='email'] {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+
+input[name='email']:hover {
+    border: 1px solid #000;
+}
+
+input[name='email']:active {
+     border: 1px solid #808080;
+}
+
+.message {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+textarea[name='message'] {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  min-height: 80px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border: none;
+  border-radius: 8px;
+  width: 95px;
+  height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+  
+}
+
+button:hover {
+    background: #6c8cff;
+}
